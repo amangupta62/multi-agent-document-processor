@@ -1,0 +1,105 @@
+2025-05-24 14:52:59,448 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 14:52:59,451 - field_extractor_agent - ERROR - Error extracting fields: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\My POC\multi_agent_\agents.py", line 102, in process
+    result = self.chain.invoke({"text": text})
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\base.py", line 2794, in invoke
+    input = step.invoke(input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 179, in invoke
+    return self._call_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\base.py", line 1734, in _call_with_config
+    context.run(
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\config.py", line 379, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 153, in _format_prompt_with_error_handling
+    _inner_input = self._validate_input(inner_input)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 145, in _validate_input
+    raise KeyError(
+KeyError: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+2025-05-24 14:55:22,849 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 14:55:22,849 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 14:55:22,851 - field_extractor_agent - ERROR - Error extracting fields: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\My POC\multi_agent_\agents.py", line 102, in process
+    result = self.chain.invoke({"text": text})
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\base.py", line 2794, in invoke
+    input = step.invoke(input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 179, in invoke
+    return self._call_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\base.py", line 1734, in _call_with_config
+    context.run(
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\config.py", line 379, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 153, in _format_prompt_with_error_handling
+    _inner_input = self._validate_input(inner_input)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 145, in _validate_input
+    raise KeyError(
+KeyError: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+2025-05-24 14:55:22,851 - field_extractor_agent - ERROR - Error extracting fields: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\My POC\multi_agent_\agents.py", line 102, in process
+    result = self.chain.invoke({"text": text})
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\base.py", line 2794, in invoke
+    input = step.invoke(input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 179, in invoke
+    return self._call_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\base.py", line 1734, in _call_with_config
+    context.run(
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\config.py", line 379, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 153, in _format_prompt_with_error_handling
+    _inner_input = self._validate_input(inner_input)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 145, in _validate_input
+    raise KeyError(
+KeyError: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+2025-05-24 14:56:21,610 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 14:56:21,610 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 14:56:21,610 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 14:56:25,946 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 14:56:25,946 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 14:56:25,946 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 14:56:25,947 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 14:56:25,947 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 14:56:25,947 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 14:56:25,949 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-05-24 14:56:25,949 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-05-24 14:56:25,949 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-05-24 14:58:43,712 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 14:58:43,712 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 14:58:43,712 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 14:58:43,712 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 14:58:47,345 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 14:58:47,345 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 14:58:47,345 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 14:58:47,345 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 14:58:47,346 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 14:58:47,346 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 14:58:47,346 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 14:58:47,346 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 14:58:47,349 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-05-24 14:58:47,349 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-05-24 14:58:47,349 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-05-24 14:58:47,349 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-05-24 15:07:05,798 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 15:07:05,798 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 15:07:10,827 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 15:07:10,827 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 15:07:10,828 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 15:07:10,828 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 15:07:10,829 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-05-24 15:07:10,829 - field_extractor_agent - INFO - Successfully parsed JSON response

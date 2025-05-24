@@ -3,7 +3,11 @@ import tempfile
 import os
 from agents import DocumentProcessor
 import json
+from logger_config import setup_logger
 import time
+
+# Setup logger for the main application
+app_logger = setup_logger('streamlit_app')
 
 st.set_page_config(
     page_title="Document Processing System",
@@ -13,29 +17,80 @@ st.set_page_config(
 
 def save_uploaded_file(uploaded_file):
     """Save uploaded file to a temporary location."""
+    app_logger.info("Attempting to save uploaded file")
     try:
         with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf') as tmp_file:
             tmp_file.write(uploaded_file.getvalue())
+            app_logger.info(f"File saved successfully at: {tmp_file.name}")
             return tmp_file.name
     except Exception as e:
+        app_logger.error(f"Error saving file: {str(e)}", exc_info=True)
         st.error(f"Error saving file: {str(e)}")
         return None
 
-def update_processing_status(status, progress_bar, status_text):
-    """Update the processing status and progress bar."""
-    status_text.text(status)
-    progress_bar.progress(min(progress_bar.progress + 0.25, 1.0))
+def read_log_file(logger_name):
+    """Read the contents of a log file."""
+    log_file = os.path.join("logs", f"{logger_name}.log")
+    if os.path.exists(log_file):
+        with open(log_file, 'r') as f:
+            return f.read()
+    return "No logs available."
+
+def process_document(pdf_path):
+    """Process document and update status in session state."""
+    processor = DocumentProcessor()
+    
+    # Text extraction
+    st.session_state.processing_status["text_extraction"]["status"] = "in_progress"
+    st.session_state.processing_status["text_extraction"]["progress"] = 0
+    
+    st.session_state.processing_status["text_extraction"]["progress"] = 50
+    extracted_text = processor.extractor.process(pdf_path)
+    
+    st.session_state.processing_status["text_extraction"]["progress"] = 100
+    st.session_state.processing_status["text_extraction"]["status"] = "completed"
+    
+    # Summarization
+    st.session_state.processing_status["summarization"]["status"] = "in_progress"
+    st.session_state.processing_status["summarization"]["progress"] = 0
+    
+    st.session_state.processing_status["summarization"]["progress"] = 50
+    summary = processor.summarizer.process(extracted_text)
+    
+    st.session_state.processing_status["summarization"]["progress"] = 100
+    st.session_state.processing_status["summarization"]["status"] = "completed"
+    
+    # Field extraction
+    st.session_state.processing_status["field_extraction"]["status"] = "in_progress"
+    st.session_state.processing_status["field_extraction"]["progress"] = 0
+    
+    st.session_state.processing_status["field_extraction"]["progress"] = 50
+    fields = processor.field_extractor.process(extracted_text)
+    
+    st.session_state.processing_status["field_extraction"]["progress"] = 100
+    st.session_state.processing_status["field_extraction"]["status"] = "completed"
+    
+    return {
+        "extracted_text": extracted_text,
+        "summary": summary,
+        "fields": fields
+    }
 
 def main():
+    app_logger.info("Starting application")
     st.title("📄 Multi-Agent Document Processing System")
     
     # Initialize session state
     if 'results' not in st.session_state:
         st.session_state.results = None
+        app_logger.debug("Initialized results in session state")
     if 'processing_status' not in st.session_state:
-        st.session_state.processing_status = ""
-    if 'current_step' not in st.session_state:
-        st.session_state.current_step = 0
+        st.session_state.processing_status = {
+            "text_extraction": {"status": "pending", "progress": 0},
+            "summarization": {"status": "pending", "progress": 0},
+            "field_extraction": {"status": "pending", "progress": 0}
+        }
+        app_logger.debug("Initialized processing_status in session state")
 
     # Create tabs
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
@@ -51,86 +106,115 @@ def main():
         uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
         
         if uploaded_file is not None:
+            app_logger.info(f"File uploaded: {uploaded_file.name}")
             if st.button("Extract"):
-                # Switch to processing tab
-                st.session_state.current_step = 0
-                st.switch_page("⚙️ Processing")
-                
-                with tab2:
-                    st.header("Processing Status")
-                    
-                    # Create progress bar and status text
-                    progress_bar = st.progress(0)
-                    status_text = st.empty()
-                    
+                app_logger.info("Extract button clicked")
+                with st.spinner("Processing document..."):
                     try:
-                        # Save uploaded file
-                        update_processing_status("📥 Saving uploaded file...", progress_bar, status_text)
-                        pdf_path = save_uploaded_file(uploaded_file)
+                        # Reset processing status
+                        st.session_state.processing_status = {
+                            "text_extraction": {"status": "in_progress", "progress": 0},
+                            "summarization": {"status": "pending", "progress": 0},
+                            "field_extraction": {"status": "pending", "progress": 0}
+                        }
                         
+                        # Save uploaded file
+                        pdf_path = save_uploaded_file(uploaded_file)
                         if pdf_path:
-                            # Initialize processor
-                            processor = DocumentProcessor()
+                            app_logger.info("Initializing document processor")
                             
-                            # Extract text
-                            update_processing_status("📄 Extracting text from PDF...", progress_bar, status_text)
-                            extracted_text = processor.extractor.process(pdf_path)
-                            
-                            # Generate summary
-                            update_processing_status("📝 Generating summary...", progress_bar, status_text)
-                            summary = processor.summarizer.process(extracted_text)
-                            
-                            # Extract fields
-                            update_processing_status("🔑 Extracting key fields...", progress_bar, status_text)
-                            fields = processor.field_extractor.process(extracted_text)
-                            
-                            # Store results
-                            st.session_state.results = {
-                                "extracted_text": extracted_text,
-                                "summary": summary,
-                                "fields": fields
-                            }
+                            # Process document
+                            app_logger.info("Starting document processing")
+                            st.session_state.results = process_document(pdf_path)
                             
                             # Clean up temporary file
                             os.unlink(pdf_path)
+                            app_logger.info("Temporary file cleaned up")
                             
-                            # Show completion status
-                            update_processing_status("✅ Processing completed successfully!", progress_bar, status_text)
-                            time.sleep(1)  # Give user time to see completion
-                            
-                            # Switch to results tab
-                            st.switch_page("📝 Extracted Text")
+                            st.success("Document processed successfully!")
+                            app_logger.info("Document processing completed successfully")
                     except Exception as e:
+                        app_logger.error(f"Error processing document: {str(e)}", exc_info=True)
                         st.error(f"Error processing document: {str(e)}")
-                        progress_bar.progress(0)
-                        status_text.text("❌ Processing failed!")
 
     with tab2:
         st.header("Processing Status")
-        if st.session_state.results:
-            st.success("✅ Document processing completed!")
-        else:
-            st.info("No document processed yet. Please upload a document in the Upload tab.")
+        
+        # Display processing status for each step
+        col1, col2 = st.columns([2, 1])
+        
+        with col1:
+            st.subheader("Processing Steps")
+            
+            # Text Extraction Status
+            st.write("📄 Text Extraction")
+            text_extraction_status = st.session_state.processing_status["text_extraction"]
+            st.progress(text_extraction_status["progress"] / 100)
+            st.write(f"Status: {text_extraction_status['status'].replace('_', ' ').title()}")
+            
+            # Summarization Status
+            st.write("📝 Summarization")
+            summarization_status = st.session_state.processing_status["summarization"]
+            st.progress(summarization_status["progress"] / 100)
+            st.write(f"Status: {summarization_status['status'].replace('_', ' ').title()}")
+            
+            # Field Extraction Status
+            st.write("🔑 Field Extraction")
+            field_extraction_status = st.session_state.processing_status["field_extraction"]
+            st.progress(field_extraction_status["progress"] / 100)
+            st.write(f"Status: {field_extraction_status['status'].replace('_', ' ').title()}")
+        
+        with col2:
+            st.subheader("Live Logs")
+            log_tabs = st.tabs(["App", "Extractor", "Summarizer", "Field Extractor"])
+            
+            with log_tabs[0]:
+                st.text_area("Application Logs", read_log_file("streamlit_app"), height=200)
+            with log_tabs[1]:
+                st.text_area("Extractor Logs", read_log_file("extractor_agent"), height=200)
+            with log_tabs[2]:
+                st.text_area("Summarizer Logs", read_log_file("summarizer_agent"), height=200)
+            with log_tabs[3]:
+                st.text_area("Field Extractor Logs", read_log_file("field_extractor_agent"), height=200)
 
     with tab3:
         st.header("Extracted Text")
         if st.session_state.results:
+            app_logger.debug("Displaying extracted text")
             st.text_area("Raw Text", st.session_state.results["extracted_text"], height=400)
         else:
+            app_logger.debug("No extracted text to display")
             st.info("No text extracted yet. Please upload and process a document.")
 
     with tab4:
         st.header("Summary")
         if st.session_state.results:
+            app_logger.debug("Displaying document summary")
             st.text_area("Document Summary", st.session_state.results["summary"], height=400)
         else:
+            app_logger.debug("No summary to display")
             st.info("No summary available yet. Please upload and process a document.")
 
     with tab5:
         st.header("Key Fields")
         if st.session_state.results:
+            app_logger.debug("Displaying extracted fields")
+            fields = st.session_state.results["fields"]
+            
+            # Check if there was an error in field extraction
+            if "error" in fields:
+                app_logger.warning("Field extraction had errors")
+                st.warning("⚠️ Some fields could not be extracted properly")
+                st.error(f"Error: {fields['error']}")
+                if "raw_response" in fields:
+                    st.text("Raw LLM Response:")
+                    st.code(fields["raw_response"])
+                
+                st.subheader("Extracted Fields (Partial)")
+                fields = fields["parsed_fields"]
+            
             # Format JSON for better display
-            formatted_json = json.dumps(st.session_state.results["fields"], indent=2)
+            formatted_json = json.dumps(fields, indent=2)
             st.json(formatted_json)
             
             # Add download button for JSON
@@ -140,7 +224,9 @@ def main():
                 file_name="extracted_fields.json",
                 mime="application/json"
             )
+            app_logger.debug("JSON download button added")
         else:
+            app_logger.debug("No fields to display")
             st.info("No fields extracted yet. Please upload and process a document.")
 
 if __name__ == "__main__":

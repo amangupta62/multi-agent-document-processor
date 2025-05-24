@@ -13,36 +13,23 @@ This system uses multiple LLM-powered agents to process PDF documents, extract t
 ## Prerequisites
 
 - Python 3.8+
-- Poetry (Python package manager)
 - Ollama with LLaMA 3 model installed
+- pip (Python package manager)
 
 ## Setup
 
-1. Install Poetry (if not already installed):
-```bash
-# Windows (PowerShell)
-(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
-
-# Linux/macOS
-curl -sSL https://install.python-poetry.org | python3 -
-```
-
-2. Install Ollama and pull the LLaMA 3 model:
+1. Install Ollama and pull the LLaMA 3 model:
 ```bash
 # Install Ollama from https://ollama.ai
 ollama pull llama3
 ```
 
-3. Install project dependencies using Poetry:
+2. Install Python dependencies:
 ```bash
-# Install dependencies
-poetry install
-
-# Activate the virtual environment
-poetry shell
+pip install -r requirements.txt
 ```
 
-4. Run the application:
+3. Run the application:
 ```bash
 streamlit run app.py
 ```
@@ -61,5 +48,4 @@ streamlit run app.py
 
 - `app.py`: Main Streamlit application
 - `agents.py`: Agent definitions and processing logic
-- `pyproject.toml`: Poetry project configuration and dependencies
-- `README.md`: Project documentation 
+- `requirements.txt`: Python dependencies 

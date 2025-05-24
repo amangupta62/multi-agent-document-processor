@@ -1,0 +1,159 @@
+2025-05-24 14:52:55,163 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 14:52:55,167 - document_processor - INFO - Starting document processing for: C:\Users\user\AppData\Local\Temp\tmp8r1abz97.pdf
+2025-05-24 14:52:55,167 - document_processor - DEBUG - Starting text extraction phase
+2025-05-24 14:52:55,423 - document_processor - DEBUG - Starting summarization phase
+2025-05-24 14:52:59,448 - document_processor - DEBUG - Starting field extraction phase
+2025-05-24 14:52:59,455 - document_processor - ERROR - Error processing document: Error extracting fields: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\My POC\multi_agent_\agents.py", line 102, in process
+    result = self.chain.invoke({"text": text})
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\base.py", line 2794, in invoke
+    input = step.invoke(input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 179, in invoke
+    return self._call_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\base.py", line 1734, in _call_with_config
+    context.run(
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\config.py", line 379, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 153, in _format_prompt_with_error_handling
+    _inner_input = self._validate_input(inner_input)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 145, in _validate_input
+    raise KeyError(
+KeyError: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\My POC\multi_agent_\agents.py", line 164, in process_document
+    fields = self.field_extractor.process(extracted_text)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\My POC\multi_agent_\agents.py", line 140, in process
+    raise Exception(f"Error extracting fields: {str(e)}")
+Exception: Error extracting fields: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+2025-05-24 14:55:17,986 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 14:55:17,986 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 14:55:17,991 - document_processor - INFO - Starting document processing for: C:\Users\user\AppData\Local\Temp\tmp942_c68o.pdf
+2025-05-24 14:55:17,991 - document_processor - INFO - Starting document processing for: C:\Users\user\AppData\Local\Temp\tmp942_c68o.pdf
+2025-05-24 14:55:17,992 - document_processor - DEBUG - Starting text extraction phase
+2025-05-24 14:55:17,992 - document_processor - DEBUG - Starting text extraction phase
+2025-05-24 14:55:18,241 - document_processor - DEBUG - Starting summarization phase
+2025-05-24 14:55:18,241 - document_processor - DEBUG - Starting summarization phase
+2025-05-24 14:55:22,848 - document_processor - DEBUG - Starting field extraction phase
+2025-05-24 14:55:22,848 - document_processor - DEBUG - Starting field extraction phase
+2025-05-24 14:55:22,854 - document_processor - ERROR - Error processing document: Error extracting fields: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\My POC\multi_agent_\agents.py", line 102, in process
+    result = self.chain.invoke({"text": text})
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\base.py", line 2794, in invoke
+    input = step.invoke(input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 179, in invoke
+    return self._call_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\base.py", line 1734, in _call_with_config
+    context.run(
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\config.py", line 379, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 153, in _format_prompt_with_error_handling
+    _inner_input = self._validate_input(inner_input)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 145, in _validate_input
+    raise KeyError(
+KeyError: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\My POC\multi_agent_\agents.py", line 164, in process_document
+    fields = self.field_extractor.process(extracted_text)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\My POC\multi_agent_\agents.py", line 140, in process
+    raise Exception(f"Error extracting fields: {str(e)}")
+Exception: Error extracting fields: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+2025-05-24 14:55:22,854 - document_processor - ERROR - Error processing document: Error extracting fields: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\My POC\multi_agent_\agents.py", line 102, in process
+    result = self.chain.invoke({"text": text})
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\base.py", line 2794, in invoke
+    input = step.invoke(input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 179, in invoke
+    return self._call_with_config(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\base.py", line 1734, in _call_with_config
+    context.run(
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\runnables\config.py", line 379, in call_func_with_variable_args
+    return func(input, **kwargs)  # type: ignore[call-arg]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 153, in _format_prompt_with_error_handling
+    _inner_input = self._validate_input(inner_input)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\anaconda3\envs\langchain\Lib\site-packages\langchain_core\prompts\base.py", line 145, in _validate_input
+    raise KeyError(
+KeyError: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\My POC\multi_agent_\agents.py", line 164, in process_document
+    fields = self.field_extractor.process(extracted_text)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\My POC\multi_agent_\agents.py", line 140, in process
+    raise Exception(f"Error extracting fields: {str(e)}")
+Exception: Error extracting fields: 'Input to PromptTemplate is missing variables {\'\\n                "date"\'}.  Expected: [\'\\n                "date"\', \'text\'] Received: [\'text\']'
+2025-05-24 14:56:17,552 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 14:56:17,552 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 14:56:17,552 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 14:56:17,561 - document_processor - INFO - Starting document processing for: C:\Users\user\AppData\Local\Temp\tmpyd3giulp.pdf
+2025-05-24 14:56:17,561 - document_processor - INFO - Starting document processing for: C:\Users\user\AppData\Local\Temp\tmpyd3giulp.pdf
+2025-05-24 14:56:17,561 - document_processor - INFO - Starting document processing for: C:\Users\user\AppData\Local\Temp\tmpyd3giulp.pdf
+2025-05-24 14:56:17,563 - document_processor - DEBUG - Starting text extraction phase
+2025-05-24 14:56:17,563 - document_processor - DEBUG - Starting text extraction phase
+2025-05-24 14:56:17,563 - document_processor - DEBUG - Starting text extraction phase
+2025-05-24 14:56:17,804 - document_processor - DEBUG - Starting summarization phase
+2025-05-24 14:56:17,804 - document_processor - DEBUG - Starting summarization phase
+2025-05-24 14:56:17,804 - document_processor - DEBUG - Starting summarization phase
+2025-05-24 14:56:21,609 - document_processor - DEBUG - Starting field extraction phase
+2025-05-24 14:56:21,609 - document_processor - DEBUG - Starting field extraction phase
+2025-05-24 14:56:21,609 - document_processor - DEBUG - Starting field extraction phase
+2025-05-24 14:56:25,951 - document_processor - INFO - Document processing completed successfully
+2025-05-24 14:56:25,951 - document_processor - INFO - Document processing completed successfully
+2025-05-24 14:56:25,951 - document_processor - INFO - Document processing completed successfully
+2025-05-24 14:58:38,880 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 14:58:38,880 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 14:58:38,880 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 14:58:38,880 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:04,400 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:04,400 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:04,400 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:04,400 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:04,400 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:13,488 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:13,488 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:13,488 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:13,488 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:13,488 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:36,437 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:36,437 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:36,437 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:36,437 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:36,437 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:46,084 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:46,084 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:46,084 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:46,084 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:00:46,084 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:01:04,505 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:02:32,108 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:04:05,886 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:05:08,511 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:06:55,974 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:06:55,974 - document_processor - INFO - DocumentProcessor initialized
