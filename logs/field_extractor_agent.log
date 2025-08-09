@@ -103,3 +103,23 @@ KeyError: 'Input to PromptTemplate is missing variables {\'\\n                "d
 2025-05-24 15:07:10,828 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
 2025-05-24 15:07:10,829 - field_extractor_agent - INFO - Successfully parsed JSON response
 2025-05-24 15:07:10,829 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-05-24 15:12:46,879 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 15:12:46,879 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 15:12:54,981 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 15:12:54,981 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 15:12:54,981 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 15:12:54,981 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 15:12:54,981 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-05-24 15:12:54,981 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-05-24 15:14:35,320 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 15:14:35,320 - field_extractor_agent - INFO - Starting field extraction
+2025-05-24 15:14:42,214 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 15:14:42,214 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-05-24 15:14:42,215 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 15:14:42,215 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-05-24 15:14:42,215 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-05-24 15:14:42,215 - field_extractor_agent - INFO - Successfully parsed JSON response
+2025-08-09 12:03:51,938 - field_extractor_agent - INFO - Starting field extraction
+2025-08-09 12:04:03,978 - field_extractor_agent - DEBUG - Received raw LLM response
+2025-08-09 12:04:03,979 - field_extractor_agent - DEBUG - Successfully extracted JSON from response
+2025-08-09 12:04:03,980 - field_extractor_agent - INFO - Successfully parsed JSON response

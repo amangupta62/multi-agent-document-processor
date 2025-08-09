@@ -2826,3 +2826,877 @@ Exception: Error processing document: Error extracting fields: 'Input to PromptT
 2025-05-24 15:07:10,947 - streamlit_app - DEBUG - JSON download button added
 2025-05-24 15:07:10,947 - streamlit_app - DEBUG - JSON download button added
 2025-05-24 15:07:10,947 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:34,834 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,834 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,834 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,834 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,834 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,834 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,834 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,834 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,834 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,868 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,868 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,868 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,868 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,868 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,868 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,868 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,868 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,868 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,868 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:34,873 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:34,873 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:34,873 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:34,873 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:34,873 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:34,873 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:34,873 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:34,873 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:34,873 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:34,873 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:34,943 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:34,943 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:34,943 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:34,943 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:34,943 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:34,943 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:34,943 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:34,943 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:34,943 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:34,943 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:34,945 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:34,945 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:34,945 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:34,945 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:34,945 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:34,945 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:34,945 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:34,945 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:34,945 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:34,945 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:34,947 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:34,947 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:34,947 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:34,947 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:34,947 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:34,947 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:34,947 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:34,947 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:34,947 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:34,947 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:34,950 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:34,950 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:34,950 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:34,950 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:34,950 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:34,950 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:34,950 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:34,950 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:34,950 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:34,950 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:36,281 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:36,281 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:36,281 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:36,281 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:36,281 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:36,281 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:36,281 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:36,281 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:36,281 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:36,281 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:36,281 - streamlit_app - INFO - Starting application
+2025-05-24 15:12:36,284 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:36,284 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:36,284 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:36,284 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:36,284 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:36,284 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:36,284 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:36,284 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:36,284 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:36,284 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:36,284 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:12:36,289 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:12:36,289 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:12:36,289 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:12:36,289 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:12:36,289 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:12:36,289 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:12:36,289 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:12:36,289 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:12:36,289 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:12:36,289 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:12:36,289 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:12:36,295 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:12:36,295 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:12:36,295 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:12:36,295 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:12:36,295 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:12:36,295 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:12:36,295 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:12:36,295 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:12:36,295 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:12:36,295 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:12:36,295 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:12:36,299 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,299 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,299 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,299 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,299 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,299 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,299 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,299 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,299 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,299 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,299 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,302 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:12:36,302 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:12:36,302 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:12:36,302 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:12:36,302 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:12:36,302 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:12:36,302 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:12:36,302 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:12:36,302 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:12:36,302 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:12:36,302 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:12:36,304 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:12:36,304 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:12:36,304 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:12:36,304 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:12:36,304 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:12:36,304 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:12:36,304 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:12:36,304 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:12:36,304 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:12:36,304 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:12:36,304 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:12:54,982 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:12:54,982 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:12:54,982 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:12:54,982 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:12:54,982 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:12:54,982 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:12:54,982 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:12:54,982 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:12:54,982 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:12:54,982 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:12:54,982 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:12:54,985 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:12:54,985 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:12:54,985 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:12:54,985 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:12:54,985 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:12:54,985 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:12:54,985 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:12:54,985 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:12:54,985 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:12:54,985 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:12:54,985 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:12:55,054 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:55,054 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:55,054 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:55,054 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:55,054 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:55,054 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:55,054 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:55,054 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:55,054 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:55,054 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:55,054 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:12:55,057 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:55,057 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:55,057 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:55,057 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:55,057 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:55,057 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:55,057 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:55,057 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:55,057 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:55,057 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:55,057 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:12:55,059 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:55,059 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:55,059 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:55,059 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:55,059 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:55,059 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:55,059 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:55,059 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:55,059 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:55,059 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:55,059 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:12:55,061 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:55,061 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:55,061 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:55,061 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:55,061 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:55,061 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:55,061 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:55,061 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:55,061 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:55,061 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:12:55,061 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:16,699 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:16,699 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:16,699 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:16,699 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:16,699 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:16,699 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:16,699 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:16,699 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:16,699 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:16,699 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:16,699 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:16,699 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:16,706 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-24 15:14:16,706 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-24 15:14:16,706 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-24 15:14:16,706 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-24 15:14:16,706 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-24 15:14:16,706 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-24 15:14:16,706 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-24 15:14:16,706 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-24 15:14:16,706 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-24 15:14:16,706 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-24 15:14:16,706 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-24 15:14:16,706 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-24 15:14:16,710 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-24 15:14:16,710 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-24 15:14:16,710 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-24 15:14:16,710 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-24 15:14:16,710 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-24 15:14:16,710 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-24 15:14:16,710 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-24 15:14:16,710 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-24 15:14:16,710 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-24 15:14:16,710 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-24 15:14:16,710 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-24 15:14:16,710 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-24 15:14:16,778 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:16,778 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:16,778 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:16,778 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:16,778 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:16,778 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:16,778 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:16,778 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:16,778 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:16,778 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:16,778 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:16,778 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:16,781 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:16,781 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:16,781 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:16,781 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:16,781 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:16,781 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:16,781 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:16,781 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:16,781 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:16,781 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:16,781 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:16,781 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:16,785 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:16,785 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:16,785 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:16,785 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:16,785 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:16,785 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:16,785 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:16,785 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:16,785 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:16,785 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:16,785 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:16,785 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,208 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,215 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,281 - streamlit_app - DEBUG - No extracted text to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,284 - streamlit_app - DEBUG - No summary to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:22,288 - streamlit_app - DEBUG - No fields to display
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,623 - streamlit_app - INFO - Starting application
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,631 - streamlit_app - INFO - File uploaded: 1655708276_rentalagreementsampleandallyouneedtoknow (1).pdf
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,639 - streamlit_app - INFO - Extract button clicked
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,644 - streamlit_app - INFO - Attempting to save uploaded file
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,651 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,657 - streamlit_app - INFO - Initializing document processor
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:25,660 - streamlit_app - INFO - Starting document processing
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,216 - streamlit_app - INFO - Temporary file cleaned up
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,222 - streamlit_app - INFO - Document processing completed successfully
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,286 - streamlit_app - DEBUG - Displaying extracted text
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,289 - streamlit_app - DEBUG - Displaying document summary
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,295 - streamlit_app - DEBUG - Displaying extracted fields
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-24 15:14:42,299 - streamlit_app - DEBUG - JSON download button added
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,061 - streamlit_app - INFO - Starting application
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,067 - streamlit_app - DEBUG - Initialized results in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,070 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,124 - streamlit_app - DEBUG - No extracted text to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,128 - streamlit_app - DEBUG - No summary to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-05-30 21:26:50,131 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:22,851 - streamlit_app - INFO - Starting application
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,009 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,048 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,189 - streamlit_app - DEBUG - No extracted text to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,278 - streamlit_app - DEBUG - No summary to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-01 15:48:23,304 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,276 - streamlit_app - INFO - Starting application
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,284 - streamlit_app - DEBUG - Initialized results in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,290 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,830 - streamlit_app - DEBUG - No extracted text to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,836 - streamlit_app - DEBUG - No summary to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-06-07 00:31:24,842 - streamlit_app - DEBUG - No fields to display
+2025-08-09 12:03:13,978 - streamlit_app - INFO - Starting application
+2025-08-09 12:03:14,099 - streamlit_app - DEBUG - Initialized results in session state
+2025-08-09 12:03:14,099 - streamlit_app - DEBUG - Initialized processing_status in session state
+2025-08-09 12:03:14,208 - streamlit_app - DEBUG - No extracted text to display
+2025-08-09 12:03:14,208 - streamlit_app - DEBUG - No summary to display
+2025-08-09 12:03:14,209 - streamlit_app - DEBUG - No fields to display
+2025-08-09 12:03:23,579 - streamlit_app - INFO - Starting application
+2025-08-09 12:03:23,579 - streamlit_app - INFO - Starting application
+2025-08-09 12:03:23,582 - streamlit_app - INFO - File uploaded: Aman_Gupta_Resume.pdf
+2025-08-09 12:03:23,582 - streamlit_app - INFO - File uploaded: Aman_Gupta_Resume.pdf
+2025-08-09 12:03:23,660 - streamlit_app - DEBUG - No extracted text to display
+2025-08-09 12:03:23,660 - streamlit_app - DEBUG - No extracted text to display
+2025-08-09 12:03:23,661 - streamlit_app - DEBUG - No summary to display
+2025-08-09 12:03:23,661 - streamlit_app - DEBUG - No summary to display
+2025-08-09 12:03:23,664 - streamlit_app - DEBUG - No fields to display
+2025-08-09 12:03:23,664 - streamlit_app - DEBUG - No fields to display
+2025-08-09 12:03:24,899 - streamlit_app - INFO - Starting application
+2025-08-09 12:03:24,899 - streamlit_app - INFO - Starting application
+2025-08-09 12:03:24,899 - streamlit_app - INFO - Starting application
+2025-08-09 12:03:24,905 - streamlit_app - INFO - File uploaded: Aman_Gupta_Resume.pdf
+2025-08-09 12:03:24,905 - streamlit_app - INFO - File uploaded: Aman_Gupta_Resume.pdf
+2025-08-09 12:03:24,905 - streamlit_app - INFO - File uploaded: Aman_Gupta_Resume.pdf
+2025-08-09 12:03:24,909 - streamlit_app - INFO - Extract button clicked
+2025-08-09 12:03:24,909 - streamlit_app - INFO - Extract button clicked
+2025-08-09 12:03:24,909 - streamlit_app - INFO - Extract button clicked
+2025-08-09 12:03:24,915 - streamlit_app - INFO - Attempting to save uploaded file
+2025-08-09 12:03:24,915 - streamlit_app - INFO - Attempting to save uploaded file
+2025-08-09 12:03:24,915 - streamlit_app - INFO - Attempting to save uploaded file
+2025-08-09 12:03:24,919 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpl08venzy.pdf
+2025-08-09 12:03:24,919 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpl08venzy.pdf
+2025-08-09 12:03:24,919 - streamlit_app - INFO - File saved successfully at: C:\Users\user\AppData\Local\Temp\tmpl08venzy.pdf
+2025-08-09 12:03:24,923 - streamlit_app - INFO - Initializing document processor
+2025-08-09 12:03:24,923 - streamlit_app - INFO - Initializing document processor
+2025-08-09 12:03:24,923 - streamlit_app - INFO - Initializing document processor
+2025-08-09 12:03:24,925 - streamlit_app - INFO - Starting document processing
+2025-08-09 12:03:24,925 - streamlit_app - INFO - Starting document processing
+2025-08-09 12:03:24,925 - streamlit_app - INFO - Starting document processing
+2025-08-09 12:04:03,981 - streamlit_app - INFO - Temporary file cleaned up
+2025-08-09 12:04:03,981 - streamlit_app - INFO - Temporary file cleaned up
+2025-08-09 12:04:03,981 - streamlit_app - INFO - Temporary file cleaned up
+2025-08-09 12:04:03,982 - streamlit_app - INFO - Document processing completed successfully
+2025-08-09 12:04:03,982 - streamlit_app - INFO - Document processing completed successfully
+2025-08-09 12:04:03,982 - streamlit_app - INFO - Document processing completed successfully
+2025-08-09 12:04:04,067 - streamlit_app - DEBUG - Displaying extracted text
+2025-08-09 12:04:04,067 - streamlit_app - DEBUG - Displaying extracted text
+2025-08-09 12:04:04,067 - streamlit_app - DEBUG - Displaying extracted text
+2025-08-09 12:04:04,071 - streamlit_app - DEBUG - Displaying document summary
+2025-08-09 12:04:04,071 - streamlit_app - DEBUG - Displaying document summary
+2025-08-09 12:04:04,071 - streamlit_app - DEBUG - Displaying document summary
+2025-08-09 12:04:04,073 - streamlit_app - DEBUG - Displaying extracted fields
+2025-08-09 12:04:04,073 - streamlit_app - DEBUG - Displaying extracted fields
+2025-08-09 12:04:04,073 - streamlit_app - DEBUG - Displaying extracted fields
+2025-08-09 12:04:04,077 - streamlit_app - DEBUG - JSON download button added
+2025-08-09 12:04:04,077 - streamlit_app - DEBUG - JSON download button added
+2025-08-09 12:04:04,077 - streamlit_app - DEBUG - JSON download button added

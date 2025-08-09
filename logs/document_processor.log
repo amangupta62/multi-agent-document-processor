@@ -157,3 +157,7 @@ Exception: Error extracting fields: 'Input to PromptTemplate is missing variable
 2025-05-24 15:05:08,511 - document_processor - INFO - DocumentProcessor initialized
 2025-05-24 15:06:55,974 - document_processor - INFO - DocumentProcessor initialized
 2025-05-24 15:06:55,974 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:12:36,307 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:12:36,307 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:14:25,665 - document_processor - INFO - DocumentProcessor initialized
+2025-05-24 15:14:25,665 - document_processor - INFO - DocumentProcessor initialized

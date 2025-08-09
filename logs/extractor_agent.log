@@ -46,3 +46,32 @@
 2025-05-24 15:06:56,089 - extractor_agent - DEBUG - Processing page 2
 2025-05-24 15:06:56,197 - extractor_agent - INFO - Successfully extracted text from 2 pages
 2025-05-24 15:06:56,197 - extractor_agent - INFO - Successfully extracted text from 2 pages
+2025-05-24 15:12:36,308 - extractor_agent - INFO - Starting text extraction from PDF: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,308 - extractor_agent - INFO - Starting text extraction from PDF: C:\Users\user\AppData\Local\Temp\tmpbnjadp9r.pdf
+2025-05-24 15:12:36,320 - extractor_agent - DEBUG - Processing page 1
+2025-05-24 15:12:36,320 - extractor_agent - DEBUG - Processing page 1
+2025-05-24 15:12:36,411 - extractor_agent - DEBUG - Processing page 2
+2025-05-24 15:12:36,411 - extractor_agent - DEBUG - Processing page 2
+2025-05-24 15:12:36,536 - extractor_agent - DEBUG - Processing page 3
+2025-05-24 15:12:36,536 - extractor_agent - DEBUG - Processing page 3
+2025-05-24 15:12:36,653 - extractor_agent - DEBUG - Processing page 4
+2025-05-24 15:12:36,653 - extractor_agent - DEBUG - Processing page 4
+2025-05-24 15:12:36,701 - extractor_agent - INFO - Successfully extracted text from 4 pages
+2025-05-24 15:12:36,701 - extractor_agent - INFO - Successfully extracted text from 4 pages
+2025-05-24 15:14:25,665 - extractor_agent - INFO - Starting text extraction from PDF: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,665 - extractor_agent - INFO - Starting text extraction from PDF: C:\Users\user\AppData\Local\Temp\tmp3u0rgnw4.pdf
+2025-05-24 15:14:25,677 - extractor_agent - DEBUG - Processing page 1
+2025-05-24 15:14:25,677 - extractor_agent - DEBUG - Processing page 1
+2025-05-24 15:14:25,770 - extractor_agent - DEBUG - Processing page 2
+2025-05-24 15:14:25,770 - extractor_agent - DEBUG - Processing page 2
+2025-05-24 15:14:25,897 - extractor_agent - DEBUG - Processing page 3
+2025-05-24 15:14:25,897 - extractor_agent - DEBUG - Processing page 3
+2025-05-24 15:14:26,022 - extractor_agent - DEBUG - Processing page 4
+2025-05-24 15:14:26,022 - extractor_agent - DEBUG - Processing page 4
+2025-05-24 15:14:26,076 - extractor_agent - INFO - Successfully extracted text from 4 pages
+2025-05-24 15:14:26,076 - extractor_agent - INFO - Successfully extracted text from 4 pages
+2025-08-09 12:03:24,932 - extractor_agent - INFO - Starting text extraction from PDF: C:\Users\user\AppData\Local\Temp\tmpl08venzy.pdf
+2025-08-09 12:03:24,949 - extractor_agent - DEBUG - Processing page 1
+2025-08-09 12:03:25,315 - extractor_agent - DEBUG - Processing page 2
+2025-08-09 12:03:25,665 - extractor_agent - DEBUG - Processing page 3
+2025-08-09 12:03:25,925 - extractor_agent - INFO - Successfully extracted text from 3 pages
